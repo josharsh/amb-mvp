@@ -1,0 +1,95 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: prabhjot018
+      changes:
+        - createTable:
+            tableName: customer
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: status
+                  type: boolean
+                  defaultValue: true
+                  constraints:
+                    nullable: false
+              - column:
+                  name: email
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+  - changeSet:
+      id: 2
+      author: prabhjot018
+      changes:
+        createTable:
+           tableName: venue
+           columns:
+             - column:
+                 name: id
+                 type: bigint
+                 autoIncrement: true
+                 constraints:
+                   primaryKey: true
+                   nullable: false
+             - column:
+                 name: name
+                 type: varchar(255)
+                 constraints:
+                   nullable: false
+             - column:
+                 name: status
+                 type: boolean
+                 defaultValue: false
+                 constraints:
+                   nullable: false
+             - column:
+                 name: email
+                 type: varchar(255)
+                 constraints:
+                   nullable: false
+  - changeSet:
+      id: 3
+      author: prabhjot018
+      changes:
+        createTable:
+          tableName: booking
+          columns:
+            - column:
+                name: id
+                type: bigint
+                autoIncrement: true
+                constraints:
+                  primaryKey: true
+                  nullable: false
+            - column:
+                name: venue_id
+                type: bigint
+                constraints:
+                  nullable: false
+                  foreignKeyName: fk_booking_venue
+                  references: venue(id)
+            - column:
+                name: customer_id
+                type: bigint
+                constraints:
+                  nullable: false
+                  foreignKeyName: fk_booking_customer
+                  references: customer(id)
+            - column:
+                name: status
+                type: boolean
+                defaultValue: false
+                constraints:
+                  nullable: false
