@@ -1,7 +1,7 @@
-package com.automatemic.demo2.Venue
+package com.automatemic.backend.Customer
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface VenueRepository : JpaRepository<Venue, Long>
+interface CustomerRepository : JpaRepository<Customer, Long>

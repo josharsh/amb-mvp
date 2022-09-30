@@ -1,4 +1,4 @@
-package com.automatemic.demo2.Customer
+package com.automatemic.backend.Customer
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping

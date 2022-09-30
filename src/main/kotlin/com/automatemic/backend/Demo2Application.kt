@@ -1,4 +1,4 @@
-package com.automatemic.demo2
+package com.automatemic.backend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

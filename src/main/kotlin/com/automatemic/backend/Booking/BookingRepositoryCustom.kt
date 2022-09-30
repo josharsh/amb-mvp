@@ -1,4 +1,4 @@
-package com.automatemic.demo2.Booking
+package com.automatemic.backend.Booking
 
 interface BookingRepositoryCustom {
     fun findByVenueId(id: Long): List<Booking>

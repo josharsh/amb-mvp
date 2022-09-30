@@ -1,7 +1,7 @@
-package com.automatemic.demo2.Booking
+package com.automatemic.backend.Venue
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface BookingRepository : JpaRepository<Booking, Long>
+interface VenueRepository : JpaRepository<Venue, Long>

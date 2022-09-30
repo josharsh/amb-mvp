@@ -1,9 +1,8 @@
-package com.automatemic.demo2.Customer
+package com.automatemic.backend.Customer
 
 import lombok.AllArgsConstructor
 import lombok.Data
 import lombok.NoArgsConstructor
-import java.util.*
 
 @Data
 @AllArgsConstructor

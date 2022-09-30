@@ -1,7 +1,4 @@
-package com.automatemic.demo2.Customer
-
-import org.springframework.stereotype.Repository
-import javax.persistence.EntityManager
+package com.automatemic.backend.Customer
 
 //@Repository
 //class CustomerRepositoryImpl(

@@ -1,4 +1,4 @@
-package com.automatemic.demo2
+package com.automatemic.backend
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

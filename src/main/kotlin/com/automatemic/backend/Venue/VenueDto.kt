@@ -1,4 +1,4 @@
-package com.automatemic.demo2.Venue
+package com.automatemic.backend.Venue
 
 import lombok.AllArgsConstructor
 import lombok.Data

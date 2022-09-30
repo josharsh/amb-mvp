@@ -1,7 +1,7 @@
-package com.automatemic.demo2.Booking
+package com.automatemic.backend.Booking
 
-import com.automatemic.demo2.Customer.CustomerRepository
-import com.automatemic.demo2.Venue.VenueRepository
+import com.automatemic.backend.Customer.CustomerRepository
+import com.automatemic.backend.Venue.VenueRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

@@ -1,11 +1,8 @@
-package com.automatemic.demo2.Booking
+package com.automatemic.backend.Booking
 
-import com.automatemic.demo2.Customer.Customer
-import com.automatemic.demo2.Venue.Venue
 import lombok.AllArgsConstructor
 import lombok.Data
 import lombok.NoArgsConstructor
-import java.util.*
 
 @Data
 @AllArgsConstructor
