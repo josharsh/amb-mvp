@@ -1,6 +1,6 @@
-package com.automatemic.demo2.Booking
+package com.automatemic.backend.Booking
 
-import com.automatemic.demo2.Customer.Customer
+import com.automatemic.backend.Common.Models.Booking
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Repository
 import javax.persistence.EntityManager

@@ -1,5 +1,7 @@
-package com.automatemic.demo2.Venue
+package com.automatemic.backend.Venue
 
+import com.automatemic.backend.Common.Mappers.VenueDto
+import com.automatemic.backend.Common.Mappers.toVenueEntity
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

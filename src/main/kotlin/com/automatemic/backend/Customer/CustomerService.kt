@@ -1,5 +1,7 @@
-package com.automatemic.demo2.Customer
+package com.automatemic.backend.Customer
 
+import com.automatemic.backend.Common.Mappers.CustomerDto
+import com.automatemic.backend.Common.Mappers.toCustomerEntity
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

@@ -2,7 +2,7 @@
 The following was discovered as part of building this project:
 
 * The JVM level was changed from '18' to '17', review the [JDK Version Range](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range) on the wiki for more details.
-* The original package name 'com.automate-mic.demo2' is invalid and this project uses 'com.automatemic.demo2' instead.
+* The original package name 'com.automate-mic.demo2' is invalid and this project uses 'com.automatemic.backend' instead.
 
 # Getting Started
 

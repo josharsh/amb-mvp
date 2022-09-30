@@ -1,5 +1,6 @@
-package com.automatemic.demo2.Venue
+package com.automatemic.backend.Venue
 
+import com.automatemic.backend.Common.Models.Venue
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

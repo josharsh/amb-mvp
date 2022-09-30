@@ -1,5 +1,6 @@
-package com.automatemic.demo2.Venue
+package com.automatemic.backend.Common.Mappers
 
+import com.automatemic.backend.Common.Models.Venue
 import lombok.AllArgsConstructor
 import lombok.Data
 import lombok.NoArgsConstructor

@@ -1,21 +1,12 @@
-package com.automatemic.demo2.Booking
+package com.automatemic.backend.Common.Models
 
-import com.automatemic.demo2.Customer.Customer
-import com.automatemic.demo2.Venue.Venue
-import liquibase.pro.packaged.A
-import lombok.AllArgsConstructor
-import lombok.Data
 import lombok.NoArgsConstructor
-import java.util.*
-import javax.persistence.Column
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
 import javax.persistence.Id
 import javax.persistence.JoinColumn
-import javax.persistence.ManyToMany
 import javax.persistence.ManyToOne
-import javax.persistence.OneToMany
 
 @Entity(name = "booking")
 @NoArgsConstructor

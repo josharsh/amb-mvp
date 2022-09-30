@@ -1,5 +1,6 @@
-package com.automatemic.demo2.Booking
+package com.automatemic.backend.Booking
 
+import com.automatemic.backend.Common.Mappers.BookingDto
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
