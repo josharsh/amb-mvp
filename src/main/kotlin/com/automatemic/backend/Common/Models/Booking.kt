@@ -1,7 +1,5 @@
-package com.automatemic.backend.Booking
+package com.automatemic.backend.Common.Models
 
-import com.automatemic.backend.Customer.Customer
-import com.automatemic.backend.Venue.Venue
 import lombok.NoArgsConstructor
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue

@@ -1,4 +1,4 @@
-package com.automatemic.backend.Venue
+package com.automatemic.backend.Common.Models
 
 import lombok.NoArgsConstructor
 import javax.persistence.Entity

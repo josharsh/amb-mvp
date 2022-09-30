@@ -1,4 +1,4 @@
-package com.automatemic.backend.Booking
+package com.automatemic.backend.Common.Mappers
 
 import lombok.AllArgsConstructor
 import lombok.Data

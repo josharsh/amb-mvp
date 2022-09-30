@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class Demo2Application
+class AutomateMicApp
 
 fun main(args: Array<String>) {
-	runApplication<Demo2Application>(*args)
+	runApplication<AutomateMicApp>(*args)
 }

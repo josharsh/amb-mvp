@@ -1,4 +1,4 @@
-package com.automatemic.backend.Customer
+package com.automatemic.backend.Common.Models
 
 import lombok.NoArgsConstructor
 import javax.persistence.Column
