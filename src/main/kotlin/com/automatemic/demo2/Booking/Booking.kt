@@ -1,6 +1,7 @@
 package com.automatemic.demo2.Booking
 
 import com.automatemic.demo2.Customer.Customer
+import com.automatemic.demo2.Slot.Slot
 import com.automatemic.demo2.Venue.Venue
 import liquibase.pro.packaged.A
 import lombok.AllArgsConstructor
@@ -31,5 +32,9 @@ data class Booking(
     @JoinColumn(name = "customerId", referencedColumnName = "id")
     val customer: Customer? = null,
 
-    val status: Boolean? = true
+    val status: Boolean? = true,
+
+    @ManyToOne
+    @JoinColumn(name = "slotId", referencedColumnName = "id")
+    val slot: Slot? = null
 )

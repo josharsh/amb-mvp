@@ -64,6 +64,56 @@ databaseChangeLog:
       author: prabhjot018
       changes:
         createTable:
+          tableName: slot
+          columns:
+            - column:
+                name: id
+                type: bigint
+                autoIncrement: true
+                constraints:
+                  primaryKey: true
+                  nullable: false
+            - column:
+                name: venue_id
+                type: bigint
+                constraints:
+                  nullable: false
+                  foreignKeyName: fk_slot_venue
+                  references: venue(id)
+            - column:
+                name: start_time
+                type: time
+                constraints:
+                  nullable: false
+            - column:
+                name: end_time
+                type: time
+                constraints:
+                  nullable: false
+            - column:
+                name: date
+                type: date
+                constraints:
+                  nullable: false
+            - column:
+                name: capacity
+                type: integer
+                constraints:
+                  nullable: false
+            - column:
+                name: status
+                type: boolean
+                defaultValue: true
+                constraints:
+                  nullable: false
+            - column:
+                name: bookings
+                type: bigint[]
+  - changeSet:
+      id: 4
+      author: prabhjot018
+      changes:
+        createTable:
           tableName: booking
           columns:
             - column:
@@ -93,3 +143,10 @@ databaseChangeLog:
                 defaultValue: false
                 constraints:
                   nullable: false
+            - column:
+                name: slot_id
+                type: bigint
+                constraints:
+                  nullable: false
+                  foreignKeyName: fk_booking_slot
+                  references: slot(id)
